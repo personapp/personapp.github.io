@@ -23,7 +23,7 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  	width: 20%;
+  	width: 30%;
   	margin-top: 10%;
 }
 .storeLogos {
@@ -36,12 +36,10 @@ a {
 	margin: auto;
 }
 .badgesOuter {
-	display: block;
 	width: 15vw;
 	height: auto;
 }
 .badges {
-	display: block;
 	object-fit: cover
 }
 .badges:hover {
@@ -52,6 +50,6 @@ a {
 	text-align: center;
 	color: gray;
 	font-family: verdana;
-	font-size: 5vw;
+	font-size: 3vw;
 	margin-top: 10vw;
 }
