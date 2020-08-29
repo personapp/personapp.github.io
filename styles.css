@@ -21,7 +21,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
   	width: 20%;
-  	margin-top: 10%;
+  	margin-top: 5%;
 }
 .storeLogos {
 	display: flex;
@@ -32,4 +32,9 @@ a {
 .badges {
 	height: 50,
 	width: 200;
+}
+.termsLinkStyle {
+	color: gray;
+	font-family: verdana;
+	font-size: 20;
 }
