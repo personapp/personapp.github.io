@@ -23,7 +23,5 @@ a {
   	width: 20%;
 }
 .centerImage {
-	width: 20%;
-  	margin: auto;
-  	display: block;
+	text-align: center;
 }
