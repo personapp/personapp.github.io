@@ -1,7 +1,7 @@
 body {
 	background-color: black;
-	align-items: center;
-	justify-content: space-around;
+	height: 100%;
+	margin: 0;
 }
 h1 {
 	color: white;
@@ -23,12 +23,28 @@ a {
 	font-family: verdana;
 	font-size: 4vw;
 }
+.grid-container { height: 100%; margin: 0; }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". Logo Logo ." ". Logo Logo ." ". badges badges ." ". info info .";
+}
+.Logo {
+	grid-area: Logo;
+}
+.badges {
+	grid-area: badges;
+}
+.info {
+	grid-area: info;
+}
+
+
 .centerImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-  	width: 30%;
-  	margin-top: 10%;
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .storeLogos {
 	display: flex;
@@ -38,14 +54,6 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	margin: auto;
-}
-.badges {
-	width: 15vw;
-	height: auto;
-	object-fit: cover;
-}
-.badges:hover {
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .termsLinkStyle {
 	text-align: center;
