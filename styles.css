@@ -17,5 +17,7 @@ a {
 	font-size: 15;
 }
 .centerImage {
-	text-align: center;
+	display: block;
+	margin: auto;
+  	width: 20%;
 }
