@@ -1,0 +1,24 @@
+body {background-color: black;}
+h1 {
+	color: white;
+	font-family: verdana;
+}
+h2 {
+	color: white;
+	font-family: verdana;
+}	
+p {
+	color: white;
+	font-family: verdana;
+}
+a {
+	color: powderblue;
+	font-family: verdana;
+	font-size: 15;
+}
+.centerHorizontal {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+}
