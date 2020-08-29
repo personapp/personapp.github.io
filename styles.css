@@ -38,11 +38,11 @@ a {
 .badgesOuter {
 	width: 15vw;
 	height: auto;
-	background-color: blue;
+	background: blue;
 }
 .badges {
 	object-fit: cover;
-	background-color: green;
+	background: green;
 }
 .badges:hover {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -54,6 +54,7 @@ a {
 	font-family: verdana;
 	font-size: 3vw;
 	margin-top: 10vw;
+	background: red;
 }
 .markStyle {
 	display: block;
@@ -62,4 +63,5 @@ a {
 	font-family: verdana;
 	font-size: 4vw;
 	margin-top: 10vw;
+	background: red; 
 }
