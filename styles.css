@@ -16,12 +16,6 @@ a {
 	font-family: verdana;
 	font-size: 15;
 }
-.centerHorizontal {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 20%;
-}
 .centerImage {
 	text-align: center;
 }
