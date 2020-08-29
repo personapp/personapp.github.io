@@ -2,19 +2,22 @@ body {background-color: black;}
 h1 {
 	color: white;
 	font-family: verdana;
+	font-size: 10vw;
 }
 h2 {
 	color: white;
 	font-family: verdana;
+	font-size: 8vw;
 }	
 p {
 	color: white;
 	font-family: verdana;
+	font-size: 5vw;
 }
 a {
 	color: powderblue;
 	font-family: verdana;
-	font-size: 15;
+	font-size: 5vw;
 }
 .centerImage {
 	display: block;
