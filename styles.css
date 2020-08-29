@@ -21,5 +21,10 @@ a {
 	margin-left: auto;
 	margin-right: auto;
   	width: 20%;
-  	margin-top: 20%;
+  	margin-top: 10%;
+}
+.storeLogos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
