@@ -6,22 +6,18 @@ body {
 h1 {
 	color: white;
 	font-family: verdana;
-	font-size: 8vw;
 }
 h2 {
 	color: white;
 	font-family: verdana;
-	font-size: 6vw;
 }	
 p {
 	color: white;
 	font-family: verdana;
-	font-size: 4vw;
 }
 a {
 	color: powderblue;
 	font-family: verdana;
-	font-size: 4vw;
 }
 .grid-container { height: 100%; margin: 0; }
 .grid-container {
@@ -60,13 +56,13 @@ a {
 	text-align: center;
 	color: gray;
 	font-family: verdana;
-	font-size: 3vw;
+	font-size: 0.8vw;
 	margin-top: 10vw;
 }
 .markStyle {
 	text-align: center;
 	color: gray;
 	font-family: verdana;
-	font-size: 4vw;
+	font-size: 1vw;
 	margin-top: 10vw;
 }
