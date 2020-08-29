@@ -35,6 +35,7 @@ a {
 }
 .badges {
 	grid-area: badges;
+	flex-direction: row;
 }
 .info {
 	grid-area: info;
