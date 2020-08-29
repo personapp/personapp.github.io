@@ -25,6 +25,8 @@ a {
 }
 .storeLogos {
 	display: flex;
+	height: 100px;
+	width: 500px;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
