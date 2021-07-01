@@ -22,6 +22,7 @@ h4 {
 p {
 	color: white;
 	font-family: verdana;
+  	line-height:1.5em;/* chrome for instance */
 }
 ul {
 	color: white;
@@ -30,6 +31,11 @@ ul {
 a {
 	color: powderblue;
 	font-family: verdana;
+}
+br
+{   content: "A" !important;
+    display: block !important;
+    margin-bottom: 1.5em !important;
 }
 .grid-container { height: 100%; margin: 0; }
 .grid-container {
