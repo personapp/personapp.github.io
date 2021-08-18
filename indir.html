@@ -4,20 +4,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
       <script type="text/javascript">
-            function getMobileOperatingSystem() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-             
-            if (/android/i.test(userAgent)) {
-                  window.location = "https://play.google.com/store/apps/details?id=com.karabiyik.persona";
-            }
-             
-            if (/iPad|iPhone|iPod/.test(userAgent) &amp;amp;amp;&amp;amp;amp; !window.MSStream) {
-                  window.location = "https://apps.apple.com/us/app/persona-paylaş-kazan/id1528863579";
-            }
-             
-            return "unknown";
+            if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+		    window.location = "http://goo.gl/IWd7J";
+		}
+		//Android Version:
+		if(navigator.userAgent.match(/android/i)) {
+		    window.location = "http://goo.gl/1K1Hi";
+		}
       }
-      window.onload = getMobileOperatingSystem;
 </script>
 </head>
 <body>
