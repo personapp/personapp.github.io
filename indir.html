@@ -4,15 +4,16 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
       <script type="text/javascript">
-            if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-		    window.location = "http://goo.gl/IWd7J";
-		}
-		//Android Version:
-		if(navigator.userAgent.match(/android/i)) {
-		    window.location = "http://goo.gl/1K1Hi";
-		}
-      }
-</script>
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if((userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                window.location = "http://goo.gl/IWd7J";
+            }
+            //Android Version:
+            if(userAgent.match(/android/i)) {
+                window.location = "https://play.google.com/store/apps/details?id=com.karabiyik.persona";
+            }
+      </script>
 </head>
 <body>
 </body>
