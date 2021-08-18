@@ -45,14 +45,14 @@ br {
 }
 .grid-container { height: 100%; margin: 0; }
 .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: ". Logo Logo ." ". Logo Logo ." ". badges badges ." ". info info .";
+  	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr 1fr;
+  	grid-template-areas: ". Logo Logo ." ". Logo Logo ." ". badges badges ." ". info info .";
 }
-.Logo {
+.logo {
 	grid-area: Logo;
-	text-align: center;
+	align-self: center;
 }
 .badges {
 	grid-area: badges;
@@ -62,7 +62,14 @@ br {
 	grid-area: info;
 }
 
-
+.center {
+	display: flex;
+	height: 50%;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
 .centerImage {
 	display: grid;
   	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -70,10 +77,10 @@ br {
 }
 .storeLogos {
 	display: flex;
-	height: auto;
+	height: 50%;
 	width: 40vw;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	margin: auto;
 }
